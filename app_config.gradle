@@ -1,0 +1,15 @@
+ext {
+    //是否是发布（集成）模式
+    isRelease = true
+
+    //抽取出每个组件相同配置信息
+    //Map
+    app_android = [
+            compileSdkVersion: 32,
+            minSdkVersion: 21,
+            targetSdkVersion: 32
+    ]
+}
+
+
+
